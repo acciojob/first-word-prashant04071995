@@ -1,11 +1,11 @@
-function firstWord(s) {
-  // your code here
-if (str.trim() === '' || !str.includes(' ')) {
-    return str;}
+function firstWord(str) {
+  // Check if the input string is empty or does not contain any space
+  if (str.trim() === '' || !str.includes(' ')) {
+    return str;
+  }
 
-	
-} return str.split(' ')[0]; 
-
+  // Split the string by space and return the first element
+  return str.split(' ')[0];
 }
 
 // Do not change the code below
