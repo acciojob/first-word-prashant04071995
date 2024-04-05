@@ -12,3 +12,4 @@ function firstWord(str) {
 
 const s = prompt("Enter String:");
 alert(firstWord(s));
+    
